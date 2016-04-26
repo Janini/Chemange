@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="---"
+        android:id="@+id/cuisiniername"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/icon"
+        android:layout_below="@+id/icon"
+        android:id="@+id/linearLayout3"
+        android:gravity="center"
+        android:layout_alignParentLeft="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="463dp"
+            android:layout_marginBottom="25dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Entrées"
+                        android:id="@+id/textView6"
+                        android:padding="3dp"
+                        android:layout_marginLeft="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="fill_parent">
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/listEntrees" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/plat"
+                        android:id="@+id/textView9"
+                        android:padding="3dp"
+                        android:layout_marginLeft="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="fill_parent" >
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/listPlats" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Desserts"
+                        android:id="@+id/textView10"
+                        android:padding="3dp"
+                        android:layout_marginLeft="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="fill_parent" >
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/listDesserts" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/boisson"
+                        android:id="@+id/textView11"
+                        android:padding="3dp"
+                        android:layout_marginLeft="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="fill_parent" >
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/listBoissons" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/updatelist2"
+                android:layout_gravity="center_horizontal|top"
+                android:src="@drawable/majbutton" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carteDuResto"
+                android:id="@+id/button5"
+                android:layout_gravity="center|top" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deco"
+                android:id="@+id/button6"
+                android:layout_gravity="center|top" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/digitalClock"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_alignRight="@+id/linearLayout3"
+        android:layout_alignEnd="@+id/linearLayout3"
+        android:textSize="60dp" />
+
+</RelativeLayout>

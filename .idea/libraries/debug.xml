@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_309fe520922ac2bc0e7f2c0ec33026eae0bd4538.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/instant-run_1207ee7276f7dad4b4e7db5996d7030c3e054b9c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_f311ca401e1a1ccb394944644559cc421a4ff6d7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_b06fc39132d93352c6fadf0a7feef3eadbe8c596.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_f0b8c72ccb3f1d15260dc7cf9d659a0c7603c80c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_072c95988663915b9525592588f9f427ffb9d9ad.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/main_bf12c0011d3adbd093d78df933cdd14e7aba0922.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_f4e5b54bc090f7a11bb82af62ac750e79ea45f0f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyApplication/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_6efc67bf389bc78056d80eee68802a8a3304a2bc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

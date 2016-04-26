@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon Application</string>
+    <string name="abonne">Abonné?</string>
+    <string name="main_title">Bienvenue!</string>
+    <string name="plusTextsize">⇕ Texte</string>
+    <string name="login">Se connecter</string>
+    <string name="username">Nom d\'Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="cuisinier">Cuisinier</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="serveur">Serveur</string>
+    <string name="erreurLogin">Nom d\'utilisateur et/ou mot de passe invalide</string>
+    <string name="colorblind">Mode Daltonien</string>
+    <string name="carteDuResto">Carte du Restaurant</string>
+    <string name="command">Commande</string>
+    <string name="callWaiter">Appeler\nun Serveur</string>
+    <string name="commander">Commander</string>
+    <string name="plat">Plats</string>
+    <string name="boisson">Boissons</string>
+    <string name="favoris">Favoris</string>
+    <string name="recap">RECAPITULATIF DES COMMANDES</string>
+    <string name="confirm">Confirmer?</string>
+    <string name="deco">Deconnexion</string>
+    <string name="appels">Appels Clients</string>
+</resources>

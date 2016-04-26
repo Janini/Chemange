@@ -1,0 +1,27 @@
+<resources>
+    <string name="main_title">Bienvenue!</string>
+    <string name="abonne">Abonné?</string>
+    <string name="plusTextsize">⇕ Texte</string>
+    <string name="app_name">Chémangé</string>
+    <string name="menu_settings">Settings</string>
+    <string name="cuisinier">Cuisinier</string>
+    <string name="serveur">Serveur</string>
+    <string name="serveurMainActivity" translatable="false">serveurMainActivity</string>
+    <string name="cuisinierMainActivity" translatable="false">cuisinierMainActivity</string>
+    <string name="login">Se connecter</string>
+    <string name="username">Nom d\'Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="erreurLogin">Nom d\'utilisateur et/ou mot de passe invalide</string>
+    <string name="colorblind">Mode Daltonien</string>
+    <string name="carteDuResto">Carte du Restaurant</string>
+    <string name="command">Commandes</string>
+    <string name="callWaiter">Appeler\nun serveur</string>
+    <string name="commander">Commander</string>
+    <string name="plat">Plats</string>
+    <string name="boisson">Boissons</string>
+    <string name="favoris">Favoris</string>
+    <string name="recap">RECAPITULATIF DES COMMANDES</string>
+    <string name="confirm">Confirmer?</string>
+    <string name="deco">Deconnexion</string>
+    <string name="appels">Appels Clients</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:weightSum="1">
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/icon"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="220dp">
+
+            <Button
+                    android:id="@+id/menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Menu"
+                    android:layout_alignBaseline="@+id/plan"
+                    android:layout_alignBottom="@+id/plan"
+                    android:layout_toRightOf="@+id/del"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+            android:id="@+id/updatelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/majbutton"
+                android:layout_alignBaseline="@+id/plan"
+                android:layout_alignBottom="@+id/plan"
+                android:layout_toRightOf="@+id/menu" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView android:id="@+id/plan" android:layout_width="534dp"
+                android:layout_height="470dp" android:src="@drawable/plan"
+                android:layout_below="@+id/icon"
+                android:layout_toRightOf="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/listalertes"
+                android:layout_gravity="right|center_vertical"
+                android:paddingLeft="30dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="50dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="248dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderstraightblack"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/appels"
+                    android:id="@+id/textView2"
+                    android:gravity="center" />
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="fill_parent">
+
+                    <ListView
+                        android:id="@+id/listalertes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
+                        android:layout_alignLeft="@+id/listcommandes"
+                        android:layout_alignStart="@+id/listcommandes"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="207dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderstraightblack"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/command"
+                    android:id="@+id/textView4"
+                    android:gravity="center" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/borderstraightblack"
+                    android:layout_height="168dp">
+
+                    <ListView
+                        android:id="@+id/listcommandes"
+                        android:layout_width="fill_parent"
+                        android:layout_height="160dp"
+                        android:scrollbars="vertical"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deco"
+                android:id="@+id/button4"
+                android:layout_below="@+id/listalertes"
+                android:layout_alignRight="@+id/listalertes"
+                android:layout_alignEnd="@+id/listalertes"
+                android:layout_marginRight="51dp"
+                android:layout_marginEnd="51dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="---"
+        android:id="@+id/serveur"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

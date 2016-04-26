@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon Application</string>
+    <string name="abonne">Subscribed?</string>
+    <string name="plusTextsize">⇕ Text</string>
+    <string name="main_title">Welcome!</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cuisinier">Cook</string>
+    <string name="menu_settings">Settings</string>
+    <string name="serveur">Waiter</string>
+    <string name="erreurLogin">Invalid login and/or password</string>
+    <string name="colorblind">Colorblind Mode</string>
+    <string name="carteDuResto">Restaurant Map</string>
+    <string name="command">Orders</string>
+    <string name="callWaiter">Call\nWaiter</string>
+    <string name="commander">Order</string>
+    <string name="plat">Dishes</string>
+    <string name="boisson">Drinks</string>
+    <string name="favoris">Favourites</string>
+    <string name="recap">ORDER SUMMARY</string>
+    <string name="confirm">Confirm?</string>
+    <string name="deco">Disconnect</string>
+    <string name="appels">Client Calls</string>
+</resources>
